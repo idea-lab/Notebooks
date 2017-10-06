@@ -1,0 +1,41 @@
+#staircase
+
+height = 50
+rowStr = ""
+
+for i in range(0, height):
+    rowStr = ""
+    for j in range(0, height - i - 1):
+        rowStr += " "
+    for k in range(height - i - 1, height):
+        rowStr += "#"
+    print(rowStr)
+
+#greedy
+change = 0.41
+coins = 0
+cents = change * 100
+coins += cents//25
+cents %= 25
+coins += cents//10
+cents %= 10
+coins += cents//5 + cents%5
+print(coins)
+
+
+  
+#pyramid
+height = 10
+rowStr = ""
+
+for i in range(0, height):
+    rowStr = ""
+    for j in range(0, (height - i - 1)):
+        rowStr += " "
+    for k in range(height - i - 1, height - 1):
+        rowStr += "##"
+    rowStr += "#"
+    print(rowStr)
+
+
+#credit card validator
