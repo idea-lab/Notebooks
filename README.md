@@ -6,4 +6,4 @@ Order of notebooks:
 4. Boolean Logic and Control Statements
 5. Lists, Tuples, and Functions
 
-Note: Try to solve as many problems from the psets as possible. Ask if you need any help understanding everything!
+Note: Try to solve as many problems from the psets as possible, including the project at the end. Ask if you need any help understanding anything!
